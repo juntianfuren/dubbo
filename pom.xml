@@ -32,5 +32,6 @@
 		<module>dubbo-consumer</module>
 		<module>dubbo-provider-v2</module>
 		<module>dubbo-provider-v1</module>
+		<module>dubbo-provider-sentinel-v1</module>
 	</modules>
 </project>
