@@ -9,9 +9,9 @@ import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 @SpringBootApplication
 @EnableAutoConfiguration // 开启自动扫描
 @EnableDubbo
-public class DubboProvider {
+public class DubboConsumerMain {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DubboProvider.class, args);
+		SpringApplication.run(DubboConsumerMain.class, args);
 	}
 }
