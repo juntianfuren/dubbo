@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jtfr</groupId>
@@ -28,9 +29,8 @@
 	</dependencies>
 	<modules>
 		<module>dubbo-interface</module>
-		<module>dubbo-provider</module>
-    <module>dubbo-consumer</module>
-    <module>dubbo-provider-v2</module>
-    <module>dubbo-provider-v1</module>
-  </modules>
+		<module>dubbo-consumer</module>
+		<module>dubbo-provider-v2</module>
+		<module>dubbo-provider-v1</module>
+	</modules>
 </project>
