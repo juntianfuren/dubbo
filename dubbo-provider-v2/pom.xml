@@ -12,7 +12,7 @@
 	<name>dubbo-provider-v2</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<dubbo.version>2.7.6</dubbo.version>
+		<dubbo.version>2.7.15</dubbo.version>
 	</properties>
 	<dependencies>
 		<!-- API接口 -->
